@@ -1,27 +1,25 @@
-.Ti{
-    text-align: center;
-    font-size: 100px;
-    font-family: sans-serif;
-    color: rgb(33, 5, 58);
-}
-.Title{
-    font-family: sans-serif;
-    text-align: center;
-}
+
 .button{
     margin-left: 48.5%;
 }
 
-.Ti2{
+.Ti2, .Title, .Ti{
     text-align: center;
     font-size: 100px;
     font-family: sans-serif;
     color: rgb(33, 5, 58);
+    background:
+    url('https://tinyurl.com/imag-image2')  
+    no-repeat center center;
+    background-size:100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 .album{
-    margin-left: 30%;
-    width: 40%;
-    height: 40%;
+    margin-left: 35%;
+    width: 30%;
+    height: 30%;
 }
 .artist{
     text-align:center;
