@@ -24,4 +24,11 @@
 .artist{
     text-align:center;
     font-size: 20px;
+    background:
+    url('https://tinyurl.com/imag-image2')  
+    no-repeat center center;
+    background-size:100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
