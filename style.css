@@ -6,12 +6,12 @@ background-color: black;
     
 .button{
     margin-left: 47.5%;
-    width: 25%;
+    width: 5%;
 }
 
 .Ti2, .Title, .Ti{
     text-align: center;
-    font-size: 40%;
+    font-size: 100px;
     font-family: sans-serif;
     color: rgb(33, 5, 58);
     background:
