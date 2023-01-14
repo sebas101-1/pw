@@ -1,40 +1,36 @@
-
-body{
-background-color: black;
-
-}
-    
-.button{
-    margin-left: 47.5%;
-    width: 5%;
+body {
+  background-color: black;
 }
 
-.Ti2, .Title, .Ti{
-    text-align: center;
-    font-size: 100px;
-    font-family: sans-serif;
-    color: rgb(33, 5, 58);
-    background:
-    url('https://tinyurl.com/Background-image-txt')  
-    no-repeat center center;
-    background-size:100%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+.button {
+  margin-left: 47.5%;
+  width: 5%;
 }
-.album{
-    margin-left: 35%;
-    width: 30%;
-    height: 30%;
+
+.title {
+  text-align: center;
+  font-size: 100px;
+  font-family: sans-serif;
+  color: rgb(33, 5, 58);
+  background: url("https://tinyurl.com/Background-image-txt") no-repeat center
+    center;
+  background-size: 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
-.artist{
-    text-align:center;
-    font-size: 25px;
-    background:
-    url('https://tinyurl.com/Background-image-txt')  
-    no-repeat center center;
-    background-size:100%;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+.album {
+  margin-left: 35%;
+  width: 30%;
+  height: 30%;
+}
+.artist {
+  text-align: center;
+  font-size: 25px;
+  background: url("https://tinyurl.com/Background-image-txt") no-repeat center
+    center;
+  background-size: 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
