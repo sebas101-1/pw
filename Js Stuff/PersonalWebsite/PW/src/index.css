@@ -1,0 +1,104 @@
+
+.letter{
+  margin: 30px 0px 45px 45px;
+  padding: 0px 0px 0px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 120px;
+  transition: all 0.5s;
+  color: white;
+  transform: translate(0px,0px) rotate(0deg);
+  text-shadow: 5px 5px black;
+  display: inline-block;
+  /* animation: Start 2s cubic-bezier(0.42, 0, 0, 1.61); */
+
+}
+@keyframes Start {
+  0%{
+    transform: translate(2000px,0px);
+  }
+  100%{
+    transform: translate(0px,0px);
+  }
+}
+.letter:hover{
+  font-size: 100px;
+  margin: -5px 0px 25px 25px;
+  transition: all 0.5s;
+  transform: translate(10px,10px);
+  cursor:grabbing;
+  color: black;
+  text-shadow: 2000px 2000px white;
+  
+}
+.Name{
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+  height: 150px;
+  animation: type 3s cubic-bezier(0.08, 0.82, 0.3, 1.33) forwards;
+
+}
+@keyframes type {
+  0%{
+    width:0px;
+  }
+  9%{
+    width:133.333333px;
+  }
+  18%{
+    width: 266px;
+  }
+  25%{
+    width: 399px;
+  }
+  36%{
+    width: 532px;
+  }
+  45%{
+    width: 399px;
+  }
+  53%{
+    width: 532px;
+  }
+  63%{
+    width: 665;
+  }
+  72%{
+    width:798px;
+  }
+  81%{
+    width: 941px;
+  }
+  90%{
+    width: 1064px;
+  }
+
+  100%{
+    width:1200px;
+  }
+  
+}
+.Cur{
+  margin-left: 1%;
+  font-size: 120px;
+  animation: Cur 1s infinite linear;
+}
+@keyframes Cur {
+  0%{
+    color: white;
+    display:none;
+  }
+  49.99%{
+    color: white
+  }
+  50%{
+    color: black;
+  }
+  100%{
+    color: black; 
+    display: inline;
+  }
+}
